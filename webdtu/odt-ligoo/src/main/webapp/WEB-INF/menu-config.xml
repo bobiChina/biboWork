@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuConfig>
+    <Displayers>
+        <Displayer name="Velocity" type="net.sf.navigator.displayer.VelocityMenuDisplayer"/>
+    </Displayers>
+    <Menus>
+        <Menu name="SystemManagementMenu" title="系统管理" url="collapseSystem">
+        	<Item name="UserManagement" title="用户管理" page="/account/users" roles="users:view"/>
+        	<Item name="RoleManagement" title="角色管理" page="/account/roles" roles="roles:view"/>
+        </Menu>
+        
+        <Menu name="ExampleMenu" title="示例" url="collapseExample">
+        	<Item name="PagableManagement" title="分页管理" page="/tasks" />
+        </Menu>
+    </Menus>
+</MenuConfig>

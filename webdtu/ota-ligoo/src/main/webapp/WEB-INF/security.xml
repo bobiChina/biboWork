@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringModelInspection -->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd"
+	default-lazy-init="true">
+
+	<description>Shiro安全配置</description>
+
+	<!-- 自定义的过滤器，用来判断当前用户是否是roleOrFilter["comm,test"]中的某个角色 -->
+	<bean id="roleOrFilter" class="com.ligootech.webdtu.service.account.CustomRolesAuthorizationFilter" />
+
+	<!-- Shiro Filter -->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean" depends-on="roleOrFilter">
+		<!-- 添加各种验证过滤器 -->
+		<property name="filters">
+			<map>
+				<entry key="roleOrFilter" value-ref="roleOrFilter"/>
+			</map>
+		</property>
+
+		<property name="securityManager" ref="securityManager" />
+		<property name="loginUrl" value="/login" />
+		<!-- 登录成功页面 -->
+		<property name="successUrl" value="/login/success" />
+		<!-- 权限不足页面 -->
+		<property name="unauthorizedUrl" value="/unauthorized" />
+		<property name="filterChainDefinitions">
+			<value>
+				/login = authc
+				/logout = logout
+				/assets/** = anon
+				/static/** = anon
+				/favicon.ico = anon
+				/fileOperate/** = anon
+				/api/** = anon
+				/admin/** = roles[admin]
+				/permission/** = roleOrFilter["admin"]
+				/** = user
+			</value>
+		</property>
+	</bean>
+
+
+	<!-- 保证实现了Shiro内部lifecycle函数的bean执行 -->
+<!-- 	<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/> -->
+</beans>

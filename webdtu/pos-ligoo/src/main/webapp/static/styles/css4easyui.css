@@ -1,0 +1,237 @@
+.combo .combo-text{
+    background:#D3D3D3;
+    font-size: 14px;
+    color:#000;
+    padding-top: 0px;
+}
+.combo-arrow{
+    background-color:#AAAAAB;
+}
+.combo-arrow-hover {
+    background-color: #AAAAAB;
+}
+.combo,
+.combo-panel {
+    background-color: #D3D3D3;
+    color:#000;
+    margin-top:0px;
+}
+
+.combobox-item,.combobox-group {
+    font-size: 14px;
+    padding: 3px;
+    padding-right: 0px;
+}
+.combo{border-width:0px;}
+
+.combobg{
+    background-color: #FFF !important;
+}
+
+.combobgprodHead{
+    background-color: #AAAAAB !important;
+    text-align:right;
+}
+
+.border-bottom-style{
+    border-bottom:1px solid #ccc;
+}
+
+.panel-header, .panel-body {
+    border-color: #E0E0E0;
+}
+.panel-title {
+    color: #000;
+}
+.panel-header {
+    background-color: #E2E2E5;
+    background: #E2E2E5;
+}
+/** 表头背景样式 **/
+.datagrid-header-inner {
+    background: #AAAAAB;
+    float: left;
+    width: 810px;
+}
+/** 表头字体 **/
+.datagrid-header .datagrid-cell span {
+    font-size: 14px;
+    color:#FFF;
+}
+/** 鼠标移动样式，内容保留原样式 .datagrid-row-over, **/
+
+.datagrid-header td.datagrid-header-over {
+    background: #AAAAAB;
+    color: #FFF;
+    cursor: default;
+}
+/** 表内容字体及行高样式 **/
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+    margin: 0;
+    padding: 0 4px;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+/** 加载条外框颜色样式 **/
+.datagrid-mask-msg {
+    border-color: #E0E0E0 !important;
+}
+/** 翻页条数外框颜色样式 **/
+.pagination-page-list, .pagination .pagination-num {
+    border-color: #E0E0E0;
+}
+/** 按钮背景色 **/
+.l-btn {
+    background: #eaf2ff;
+}
+
+/** 手风琴样式调整 **/
+.accordion {
+    background: #ffffff;
+    border-color: #95B8E7;
+}
+.accordion {
+    overflow: hidden;
+    border-width: 0px;
+    border-style: solid;
+}
+.accordion .accordion-header {
+    border-width: 0 0 1px;
+    cursor: pointer;
+    height:20px;
+    background: #D3D3D3;
+}
+
+.accordion .accordion-header-selected {
+    background: #ffe48d;
+}
+
+.accordion-header .panel-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E2D5F;
+    height: 18px;
+    line-height: 18px;
+}
+
+.panel-tool a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 4px 0 2px; /** 调整工具栏操作按钮间距 **/
+    vertical-align: top;
+}
+/** 手风琴样式调整 **/
+
+
+/*jquery.euploadify.js*/
+.euploadify-panel {}
+.euploadify-panel {}
+
+.euploadify-wrapper {}
+.euploadify-wrapper div.uploadify { display: inline-block; font-size: 12px; margin: 0; }
+.euploadify-wrapper div.uploadify .uploadify-button { border-radius: 0; margin: 0 4px 0 10px; }
+.euploadify-wrapper div.uploadify > object { left: 0px; }
+.euploadify-wrapper.euploadify-disabled { filter: alpha(opacity=60); opacity: 0.6; }
+.euploadify-wrapper a.l-btn-disabled div.uploadify > object { visibility: hidden; }
+
+.euploadify-wrapper.euploadify-invalid { border: 1px solid red; }
+
+.euploadify-wrapper-single {}
+.euploadify-wrapper-multi {}
+.euploadify-wrapper-multi-uploadify {}
+.euploadify-wrapper-multi-simple {}
+.euploadify-wrapper-multi-bootstrap {}
+.euploadify-wrapper-multi-grid {}
+.euploadify-wrapper-single .euploadify-button, .euploadify-wrapper-multi-uploadify .euploadify-button, .euploadify-wrapper-multi-simple .euploadify-button, .euploadify-wrapper-multi-bootstrap .euploadify-button {
+    margin-right: 5px;
+}
+.euploadify-wrapper-multi-grid .euploadify-button { margin-right: 2px; }
+.euploadify-wrapper-multi-grid .euploadify-button-mini { width: 18px; height: 18px; cursor: pointer; border-width: 1px; border-color: #FFFFFF; border-style: solid; display: inline-block; }
+.euploadify-wrapper-multi-grid .euploadify-button-mini { *display: inline; }
+.euploadify-wrapper-multi-grid .euploadify-button-mini:hover { border-color: red; }
+.euploadify-wrapper-multi-grid .euploadify-button-mini-icon { line-height: 16px; padding-left: 16px; display: inline-block; }
+
+.euploadify-select {}
+.euploadify-upload {}
+.euploadify-stop {}
+.euploadify-cancel {}
+.euploadify-hidden { display: none; }
+
+.euploadify-queue {}
+.euploadify-wrapper-single .euploadify-queue, .euploadify-wrapper-multi-uploadify .euploadify-queue, .euploadify-wrapper-multi-simple .euploadify-queue, .euploadify-wrapper-multi-bootstrap .euploadify-queue {
+    margin: 0 5px 5px 5px;
+}
+
+.euploadify-wrapper-single .euploadify-progressbar { display: inline-block; vertical-align: middle; margin: 5px; }
+.euploadify-wrapper-single .euploadify-progressbar { *display: inline; } /*ie6,7*/
+.euploadify-progressbar .progressbar-value .progressbar-text.progressbar-text-success, .euploadify-gridpanel-progress-value.euploadify-gridpanel-progress-success {
+    background-color: #15C23C;
+}
+.euploadify-progressbar .progressbar-value .progressbar-text.progressbar-text-error, .euploadify-gridpanel-progress-value.euploadify-gridpanel-progress-error {
+    background-color: #F10257;
+}
+
+.euploadify-wrapper-single .euploadify-buttonbar { display: inline-block; vertical-align: middle; margin: 5px 5px 5px 0; }
+.euploadify-wrapper-single .euploadify-buttonbar { *display: inline; } /*ie6,7*/
+
+.euploadify-wrapper-multi-uploadify .euploadify-buttonbar, .euploadify-wrapper-multi-simple .euploadify-buttonbar, .euploadify-wrapper-multi-bootstrap .euploadify-buttonbar {
+    vertical-align: middle; margin: 5px;
+}
+.euploadify-wrapper-multi .uploadify-queue-item { max-width: inherit; }
+.euploadify-gridpanel-progress { border: 1px solid; height: 8px; text-align: left; }
+.euploadify-gridpanel-progress-value { height: 8px; background-color: #FFAA00; margin: 0; padding: 0; }
+.euploadify-gridpanel-status { font-weight: bold; }
+.euploadify-gridpanel-status.euploadify-gridpanel-status-success { color: #15C23C; }
+.euploadify-gridpanel-status.euploadify-gridpanel-status-error { color: #F10257; }
+
+
+
+/*WdatePicker.js*/
+/*jquery.my97.js*/
+.combo-panel-noborder { border-width: 0; filter: alpha(opacity=0); opacity: 0; }
+/** 文件上传的样式 **/
+.uploadify-queue {
+    margin-bottom: 1em;
+}
+.uploadify-queue-item {
+    background-color: #F5F5F5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 11px Verdana, Geneva, sans-serif;
+    margin-top: 5px;
+    max-width: 350px;
+    padding: 10px;
+}
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+    background: url('images/uploadify-cancel.png') 0 0 no-repeat;
+    float: right;
+    height:	16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+.uploadify-progress {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+.uploadify-progress-bar {
+    background-color: #0099FF;
+    height: 3px;
+    width: 1px;
+}
+/** 文件上传样式 **/

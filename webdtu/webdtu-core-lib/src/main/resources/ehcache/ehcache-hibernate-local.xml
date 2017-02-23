@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" name="hibernateCache">
+
+	<diskStore path="user.home/hibernate/com.ligootech.webdtu.repository-local" />
+
+	<!-- DefaultCache setting. -->
+	<defaultCache maxEntriesLocalHeap="10000" eternal="false" timeToIdleSeconds="300" timeToLiveSeconds="600"
+		overflowToDisk="true" maxEntriesLocalDisk="100000" />
+
+	<!-- Special objects setting. -->
+	<cache name="com.ligootech.webdtu.entity.account.User" maxEntriesLocalHeap="1000" eternal="true"
+		overflowToDisk="true" maxEntriesLocalDisk="10000" />
+	<cache name="com.ligootech.webdtu.entity.account.User.roleList" maxEntriesLocalHeap="1000" eternal="true"
+		overflowToDisk="true" maxEntriesLocalDisk="10000" />
+	<cache name="com.ligootech.webdtu.entity.account.Role" maxEntriesLocalHeap="100" eternal="true"
+		overflowToDisk="true" maxEntriesLocalDisk="1000" />
+	<cache name="com.ligootech.webdtu.entity.account.Role.permissionList" maxEntriesLocalHeap="100"
+		eternal="true" overflowToDisk="true" maxEntriesLocalDisk="1000" />
+</ehcache>

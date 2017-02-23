@@ -1,0 +1,14 @@
+<ehcache updateCheck="false" name="shiroCache">
+
+   <diskStore path="user.home/shiro/com.ligootech.webdtu.repository-shiro" />
+
+   <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            />
+</ehcache>

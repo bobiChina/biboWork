@@ -1,0 +1,131 @@
+.combo .combo-text{
+    background:#D3D3D3;
+    font-size: 14px;
+    color:#000;
+    padding-top: 0px;
+}
+.combo-arrow{
+    background-color:#D3D3D3;
+}
+.combo,
+.combo-panel {
+    background-color: #D3D3D3;
+    color:#000;
+    margin-top:0px;
+}
+
+.combobox-item,.combobox-group {
+    font-size: 14px;
+    padding: 3px;
+    padding-right: 0px;
+}
+.combo{border-width:0px;}
+
+.combobg{
+    background-color: #FFF !important;
+}
+
+.combobgprodHead{
+    background-color: #AAAAAB !important;
+    text-align:right;
+}
+
+.combo-arrow {
+    background-color: #AAAAAB !important;
+}
+.combo-arrow-hover {
+    background-color: #AAAAAB !important;
+}
+
+.border-bottom-style{
+    border-bottom:1px solid #ccc;
+}
+
+.panel-header, .panel-body {
+    border-color: #E0E0E0;
+
+}
+/** 表头背景样式 **/
+.datagrid-header-inner {
+    background: #AAAAAB;
+    float: left;
+    width: 810px;
+}
+/** 表头字体 **/
+.datagrid-header .datagrid-cell span {
+    font-size: 14px;
+    color:#FFF;
+}
+/** 鼠标移动样式，内容保留原样式 .datagrid-row-over, **/
+
+.datagrid-header td.datagrid-header-over {
+    background: #AAAAAB;
+    color: #FFF;
+    cursor: default;
+}
+/** 表内容字体及行高样式 **/
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber {
+    margin: 0;
+    padding: 0 4px;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+/** 加载条外框颜色样式 **/
+.datagrid-mask-msg {
+    border-color: #E0E0E0 !important;
+}
+/** 翻页条数外框颜色样式 **/
+.pagination-page-list, .pagination .pagination-num {
+    border-color: #E0E0E0;
+}
+
+/** 按钮背景色 **/
+.l-btn {
+    background: #eaf2ff;
+}
+
+/** 手风琴样式调整 **/
+.accordion {
+    background: #ffffff;
+    border-color: #95B8E7;
+}
+.accordion {
+    overflow: hidden;
+    border-width: 0px;
+    border-style: solid;
+}
+.accordion .accordion-header {
+    border-width: 0 0 1px;
+    cursor: pointer;
+    height:20px;
+    background: #D3D3D3;
+}
+
+.accordion .accordion-header-selected {
+    background: #ffe48d;
+}
+
+.accordion-header .panel-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0E2D5F;
+    height: 18px;
+    line-height: 18px;
+}
+
+.panel-tool a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 0 4px 0 2px; /** 调整工具栏操作按钮间距 **/
+    vertical-align: top;
+}
+/** 手风琴样式调整 **/
+

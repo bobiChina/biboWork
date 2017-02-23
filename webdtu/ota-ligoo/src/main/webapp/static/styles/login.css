@@ -1,0 +1,11 @@
+/* CSS Document */
+html,body{ margin:0px; padding:0;}
+body{ font:13px/24px 'microsoft yahei';}
+.login_bg{ background:url(../images/login_bg.jpg) #01538f no-repeat center top; min-width:1002px;}
+.login_form{ width:302px; height:160px; padding:233px 110px 257px 590px; margin:0px auto;}
+.login_form_item{ padding-top:20px;}
+.login_icon_user{ background:url(../images/ico_user.png) no-repeat; width:16px; height:16px; display:inline-block; vertical-align:middle; margin-right:10px; *display:inline; *zoom:1;}
+.login_icon_pass{ background:url(../images/ico_pass.png) no-repeat; width:16px; height:16px; display:inline-block; vertical-align:middle; margin-right:10px; *display:inline; *zoom:1;}
+.login_input{ border:1px solid #68b1e3; background-color:#fff; height:24px; margin-left:22px; padding:2px; outline:none; -moz-outline:none;}
+.login_form_btn{ padding-top:20px; padding-left:100px;}
+.login_btn,.login_btn:link,.login_btn:visited{ background:url(../images/btn_1.png) no-repeat; width:80px; height:30px; text-align:center; line-height:30px; color:#fff; font-size:14px; text-decoration:none; display:inline-block; *display:inline; *zoom:1;}

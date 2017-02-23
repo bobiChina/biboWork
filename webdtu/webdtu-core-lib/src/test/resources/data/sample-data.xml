@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+	<TW_ROLE id="-1" NAME="管理员" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_ROLE id="-2" NAME="用户" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_ROLE_PERMISSION ROLE_id="-1" PERMISSION="users:view" />
+	<TW_ROLE_PERMISSION ROLE_id="-1" PERMISSION="users:edit" />
+	<TW_ROLE_PERMISSION ROLE_id="-1" PERMISSION="roles:view" />
+	<TW_ROLE_PERMISSION ROLE_id="-1" PERMISSION="roles:edit" />
+	<TW_ROLE_PERMISSION ROLE_id="-2" PERMISSION="users:view" />
+	<TW_ROLE_PERMISSION ROLE_id="-2" PERMISSION="roles:view" />
+	
+	<TW_USER id="-1" EMAIL="admin@appdot.org" LOGIN_NAME="admin" NAME="Admin" PASSWORD="admin" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER id="-2" EMAIL="user@appdot.org" LOGIN_NAME="user" NAME="User" PASSWORD="user" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER id="-3" EMAIL="jack@appdot.org" LOGIN_NAME="user2" NAME="Jack" PASSWORD="user2" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER id="-4" EMAIL="kate@appdot.org" LOGIN_NAME="user3" NAME="Kate" PASSWORD="user3" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER id="-5" EMAIL="sawyer@appdot.org" LOGIN_NAME="user4" NAME="Sawyer" PASSWORD="user4" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER id="-6" EMAIL="ben@appdot.org" LOGIN_NAME="user5" NAME="Ben" PASSWORD="user5" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_USER_ROLE USER_id="-1" ROLE_id="-1" />
+	<TW_USER_ROLE USER_id="-1" ROLE_id="-2" />
+	<TW_USER_ROLE USER_id="-2" ROLE_id="-2" />
+	<TW_USER_ROLE USER_id="-3" ROLE_id="-2" />
+	<TW_USER_ROLE USER_id="-4" ROLE_id="-2" />
+	<TW_USER_ROLE USER_id="-5" ROLE_id="-2" />
+	<TW_USER_ROLE USER_id="-6" ROLE_id="-2" />
+	
+	<TW_TASK id="-1" title="How to write UnitTestCase right" description="http://www.appdot.org/" user_id="-1" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_TASK id="-2" title="Try Selenium for Integration Test" description="http://www.appdot.org/" user_id="-1" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_TASK id="-3" title="Try Springfuse" description="http://www.springfuse.org/" user_id="-1" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_TASK id="-4" title="Try Spring Roo" description="http://www.springsource.org/roo" user_id="-1" created_at='2012-08-23' updated_at='2012-08-23'/>
+	<TW_TASK id="-5" title="Try Scala" description="http://www.scala.org" user_id="-1" created_at='2012-08-23' updated_at='2012-08-23'/>
+</dataset>

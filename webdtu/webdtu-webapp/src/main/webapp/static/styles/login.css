@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body{margin:0px; padding:0px; border:0px; background:#fff; font-size:13px;  font-family:"Century Gothic","Microsoft YaHei","SimSun","Segoe UI","Times New Roman"; width:100%; height:100%;-webkit-font-smoothing:antialiased;}
+
+ul,li{list-style:none;margin:0px;padding:0px;}
+
+img{border:0px;}
+
+.clr{clear:both;}
+
+.fr{float:right;}
+
+.fl{float:left;}
+
+.cor_gray{ color:#666;}
+
+.sys_bg{width:100%; height:100%;  background:url(images/sysbg.png) center repeat;background-attachment:fixed;background-size:contain;}
+
+.ligoo{width:100%; height:100%; min-width:1000px; overflow:auto; *overflow:hidden; position:relative;}
+
+.ligoo .cont_up{ background:#424242; width:100%; height:30%;}
+
+.ligoo .l_top{width:100%;  float:left; color:#fff; position:fixed; height:60px; t0p:0px; left:0px; z-index:10;}
+
+.ligoo .l_top .left{float:left; margin:10px 0 0 15px; }
+
+.ligoo .l_top .left .logo{ background:url(images/ligoo.png) center no-repeat; width:116px; height:50px; float:left; }
+
+.ligoo .l_top .left .text{float:left; margin:0 0 0 15px; height:50px; line-height:50px; }
+
+.ligoo .l_top .left .text span{border-left:1px solid #848484; font-size:28px; margin:10px 0 0 0; padding:0 0 0 15px;  height:30px; line-height:25px;*line-height:30px;line-height:30px\9; display:inline-block;  }
+
+.ligoo .l_top .left .text1{float:left; margin:0 0 0 10px; height:40px; line-height:40px; }
+
+.ligoo .l_top .left .text1 span{border-left:1px solid #848484; font-size:22px; margin:9px 0 0 0; padding:0 0 0 10px;  height:26px; line-height:26px; display:inline-block;  color:#FFF; }
+
+.ligoo .l_top .right{float:right; height:60px; line-height:60px; margin:0 15px 0 0; font-size:14px; color:#DDD;}
+
+.ligoo .l_top .right .user{float:left; margin:0 20px 0 0;}
+
+.ligoo .l_top .right .user .icon{ background:url(images/user_h.png) center no-repeat; width:20px; height:20px; background-size:16px; float:left; margin:20px 5px 0 0;}
+
+.ligoo .l_top .right .user .name{float:left;}
+
+.ligoo .l_top .right .quit{float:left; margin:0 0 0 5px;}
+
+.ligoo .l_top .right .user .name:hover,.ligoo .l_top .right .quit:hover{color:#fff; cursor:pointer;}
+
+.ligoo .l_top .help{ background:url(images/help.png) center no-repeat; float:right; width:30px; height:30px; display:inline-block; background-size:30px; margin:35px 25px 0 0;}
+
+.ligoo .l_top .help:hover{ background:url(images/help_h.png) center no-repeat; background-size:30px;width:30px; height:30px;  cursor:pointer;}
+
+.ligoo .cont_up .company{max-width:500px; margin:0px auto; text-align:center; position:relative; height:100%;}
+
+.ligoo .cont_up .company .logo{ width:100%; text-align:center; height:70px;margin:0 0 10px 0;}
+
+.ligoo .cont_up .company .logo img{width:70px;}
+
+.ligoo .cont_up .company .logo img:hover{ opacity:0.8; cursor:pointer;-webkit-transition:all 0.2s; -moz-transition:all 0.2s;  -ms-transition:all 0.2s;}
+
+.ligoo .cont_up .company .name{ font-size:20px; width:100%; text-align:center; COLOR:#FFF;}
+
+.ligoo .cont_up .company .cont{ position:absolute; top:50%;*left:0px; width:100%; margin:-50px 0 0 0;}
+
+.ligoo .mass{width:320px; margin:0px auto; color:#fff;}
+
+.ligoo .mass .cont{position: absolute;top: 50%;margin: -168px 0 0 0;}
+
+.ligoo .mass .cont .comp_name{ width:100%;*width:320px; text-align:center;}
+
+.ligoo .mass .cont .comp_name .c_logo{width:100%; text-align:center;}
+
+.ligoo .mass .cont .comp_name .c_logo img{width:68px; height:68px;}
+
+.ligoo .mass .cont .comp_name .c_name{margin:15px 0 0 0; font-size:24px;}
+
+.ligoo .mass .cont .l_box{width:100%; margin:30px 0 0 0; border-radius:4px;  background:#fff;  box-shadow:0px 1px 1px rgba(0,0,0,0.15);}
+
+.ligoo .mass .cont .l_box .term{width:100%; height:45px; line-height:45px; border-bottom:1px solid; border-bottom-color:#eee; position:relative;behavior: url(PIE.htc);}
+
+.ligoo .mass .cont .l_box .term input{width:280px !important; height:25px; line-height:25px;margin:10px 0 0 0;*margin:0px 0 0 0; padding:0 0 0 40px; background:none; outline:none; border:none; font-size:16px;}
+
+.ligoo .mass .cont .l_box .term .icon2{ background: url(images/user.png) no-repeat; width:17px; height:17px;  position:absolute; top:14px; left:9px; }
+
+.ligoo .mass .cont .l_box .term .icon3{ background: url(images/password.png) no-repeat; width:14px; height:19px; position:absolute; top:12px; left:10px;}
+
+.ligoo .mass .cont .l_box .term .text{ color:#888; font-size:13px;position:absolute; top:0px; left:40px;}
+
+.ligoo .mass .cont .l_btn{ background:#E46627; width:100%;*width:320px; font-size:22px; height:50px; line-height:50px; text-align:center; color:#fff; border-radius:4px; margin:10px 0 0 0;box-shadow:0px 1px 1px rgba(0,0,0,0.15);}
+
+.ligoo .mass .cont .l_btn:hover{background:#D64517; cursor:pointer; -webkit-transition:all 0.2s; -moz-transition:all 0.2s; -ms-transition:all 0.2s;}
+
+.ligoo .footer{width:100%; text-align:center; position:absolute; bottom:25px; color:#fff; font-size:13px;}
+
+.ligoo .footer a{ color: #fff;}
+
+.ligoo .footer a:hover{ color: #c90000;}
+
